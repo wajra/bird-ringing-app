@@ -1,0 +1,11 @@
+USE fogsl_ringing_database;
+INSERT INTO institution(institution.institution_name) VALUES ('University of Colombo');
+INSERT INTO institution(institution.institution_name) VALUES ('University of Peradeniya');
+INSERT INTO institution(institution.institution_name) VALUES ('Unaffiliated');
+INSERT INTO institution(institution.institution_name) VALUES ('University of Kelaniya');
+INSERT INTO institution(institution.institution_name) VALUES ('University of Sri Jayawardenapura');
+INSERT INTO institution(institution.institution_name) VALUES ('University of Jaffna');
+INSERT INTO institution(institution.institution_name) VALUES ('Eastern University');
+INSERT INTO institution(institution.institution_name) VALUES ('University of Sabaragamuwa');
+INSERT INTO institution(institution.institution_name) VALUES ('University of Ruhuna');
+INSERT INTO institution(institution.institution_name) VALUES ('Field Ornithology Group of Sri Lanka');

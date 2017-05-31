@@ -1,0 +1,13 @@
+USE fogsl_ringing_database;
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Amila',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='Unaffiliated'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Sanjaya',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Dilini',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Manasi',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Dilani',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Thejanee',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Shemaya',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Praneeth',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Udari',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Sahan',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Tharaka',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
+INSERT INTO observer(observer.observer_name,observer.institution_index) VALUES ('Pumudi',(SELECT institution.institution_index FROM institution WHERE institution.institution_name='University of Colombo'));
